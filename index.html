@@ -1,53 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my e-comerce website</title>
     <script src="app.js" defer></script>
-    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <!-- Compiled and minified JavaScript -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
-
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
- 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar1">
-        <div class="nav-wrapper black"> 
-             <ul id="nav-mobile dropdown" class="left - on-med-and-down black">
-                <li><a href="#home button"><b>Home</b></a></li>
-                <li><a href="#about"><b>About</b></a></li>
-                <li><a href="#pastry"><b>Pastry</b></a></li>
-                <li><a href="#cake"><b>Cake</b></a></li>
-                <li><a href="#special Occasions"><b>Special Occasions</b></a></li>
-                <li><a href="#order"><b>Make an Order</b></a></li>
-                <li><a href="#contact"><b>Contact Us</b></a></li>
+    <!-- <div class="topnav"> -->
+    <div class="topnav">
+        <nav>
+            <ul id="MenuItems">
+                <a href="index.html"><b>Home</b></a>
+                <a href="Products.html"><b>Products</b></a>
+                <a href="about.html"><b>About</b></a>
+                <a href="Contact.html"><b>Contact</b></a>
+                <a href="cart.html"><b>Account</b></a>
+                <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"> <b>Submit</b></button>
+                    </form>
+                </div>
             </ul>
-            <!-- <ul id="nav-mobile" class="right - on-med-and-down">
-                <li><a href="#home button"><b>Cart</b></a></li>
-            </ul> -->
-           
-        </div>
+        </nav>
+    </div>
+    <!-- <img class="search" src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/ id="searchimag">
         
-    </nav>
- <div id="pastry">
-      
- </div>
- <p id="cake">Hello </p>
-       <!-- <div class="left-front-page-image">
-        <img src="images/wedding3.jpg">
-        </div>
+    <input type="serach" id="search" placeholder="Search"> -->
+
+    <!-- <div class="cart">
+        <img src="https://img.icons8.com/material-outlined/24/000000/fast-cart.png"/>
+    </div>  -->
+    <div class="h2holder">
     <div>
-    <img src="images/mini-french-pastry-assortment-labels.Jpg">
-    </div> -->
-    
-    
+        <h2 id="h2">Terry Bakery</h2>
+    </div>
+</div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhMK5-gmzAV7YJUngWJck70cJWYgP-HcbEqzRmNmq_fOfejg7eINS7La9nzvola9ocXWU&usqp=CAU" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://static01.nyt.com/images/2021/02/17/dining/17pastrychefs18/17pastrychefs18-superJumbo.jpg" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://www.pastriesbyrandolph.com/wp-content/uploads/2021/03/spiral-iced-berry-cluster.jpg" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://images.squarespace-cdn.com/content/v1/52e8563be4b09c239b5c81f0/1615393868390-RHOLBUBSTUT7RCDZ3DL1/akp-moody-1006+SMALLER.jpg?format=500w" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://www.pastriesbyrandolph.com/wp-content/uploads/2021/03/spiral-iced-blue-flowers.jpg" >
+        </div>
+
+        <div class="mySlides fade">
+            <img src="https://www.giverecipe.com/wp-content/uploads/2016/05/strawberry-chocolate-cake-1.jpg" >
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+     
+    </div>
 </body>
-</html>
+
+</html> 
