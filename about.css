@@ -26,7 +26,7 @@ body {
   }
   
   .about-section {
-    padding: 50px;
+    padding: 30px;
     text-align: center;
     background-color:#ffe6e6;
     color:brown;
@@ -78,9 +78,10 @@ body {
   
   .bg img {
   
-    height: 30px; 
+    height: 300px; 
     object-fit:cover ;
   
     /* Center and scale the image nicely */
    
   }
+  

@@ -21,9 +21,19 @@ $.getJSON('./data.json',function(products){
      container.append(productsArray)
 });
 
+// Side Navigation
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
 var slideIndex = 0;
 showSlides();
 
+//Slide shows for index.html
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -40,3 +50,4 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+

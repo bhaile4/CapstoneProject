@@ -9,12 +9,12 @@
     <script src="app.js" defer></script>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <!-- Compiled and minified JavaScript -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -22,11 +22,11 @@
     <div class="topnav">
         <nav>
             <ul id="MenuItems">
-                <a href="index.html"><b>Home</b></a>
-                <a href="Products.html"><b>Products</b></a>
+                <a class="active" href="index.html"><b>Home</b></a>
+                <a href="Pastry.html"><b>Pastry</b></a>
                 <a href="about.html"><b>About</b></a>
                 <a href="Contact.html"><b>Contact</b></a>
-                <a href="cart.html"><b>Account</b></a>
+                <a href="cart.html"><b>Cart</b></a>
                 <div class="search-container">
                     <form action="/action_page.php">
                         <input type="text" placeholder="Search.." name="search">
@@ -36,13 +36,19 @@
             </ul>
         </nav>
     </div>
-    <!-- <img class="search" src="https://img.icons8.com/material-outlined/24/000000/search--v1.png"/ id="searchimag">
-        
-    <input type="serach" id="search" placeholder="Search"> -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="pastry.html">Pastry</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
 
-    <!-- <div class="cart">
-        <img src="https://img.icons8.com/material-outlined/24/000000/fast-cart.png"/>
-    </div>  -->
+      </div>
+
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span> 
+    
     <div class="h2holder">
         <div>
             <h2 id="h2">Terry Bakery</h2>
@@ -91,11 +97,16 @@
 
     <div class="slideshow-text-container">
 
-        <div class="mySlides fade">
-            <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhMK5-gmzAV7YJUngWJck70cJWYgP-HcbEqzRmNmq_fOfejg7eINS7La9nzvola9ocXWU&usqp=CAU">
-        </div>
+       
+    </div>
 
+  <footer >
+    <h3 class="quote" > "I can do all things through Him who strengthens me."  <br>Philippians 4:13 </h3>
+   
+
+         <h6 class= "cpyRight">&copy; 2021 BILEN HAILE. ALL RIGHTS RESERVED</h6>
+
+  </footer>
 </body>
 
 </html>
