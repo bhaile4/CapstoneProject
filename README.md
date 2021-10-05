@@ -3,7 +3,7 @@
 
 This is app is going to be an online Pastry shop. It will have customers information saved in the AWS DB and it will take customers orders. 
 
-[Terry's Bekery - Demo]("http://capstone.project.s3-website-us-east-1.amazonaws.com/index.html")
+[Terry's Bekery - Demo](http://capstone.project.s3-website-us-east-1.amazonaws.com/index.html)
 
 ## Getting Started
 You can clone this repo and run it in your local machine for development and testing purposes.
@@ -21,7 +21,7 @@ FAQ
 
 ## Authors
 
-* **Bilen Haile** - *Initial work* - [Terry's Bekery]("http://capstone.project.s3-website-us-east-1.amazonaws.com/index.html")
+* **Bilen Haile** - *Initial work* - [Terry's Bekery](http://capstone.project.s3-website-us-east-1.amazonaws.com/index.html)
 ​
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
