@@ -1,11 +1,16 @@
+
 body {
   font-family:cursive;
-  
+  color:brown;
+  font-weight: 600;
+  font: 20px;
 }
-
 * {
   box-sizing: border-box;
+  font-family:cursive;
   
+  font-weight: 600;
+  font: 20px;
 }
 
 /* Style inputs */
@@ -16,6 +21,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  
 }
 
 input[type=submit] {
@@ -27,7 +33,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:grey ;
+  background-color:salmon;
 }
 
 /* Style the container/contact section */

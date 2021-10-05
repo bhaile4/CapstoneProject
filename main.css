@@ -1,47 +1,4 @@
-/* .navbar{
-    background-color: teal;
-} */
-/* .search{ */
-    /* display: inline-block; */
-    /* float: right; */
 
-/* }
-input{
-    background-color: black;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-
-nav {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-}
-.nav-right img {
-    padding-right: 10px;
-}
-.nav-right h4 {
-    padding-left: 10px;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-}
-
-.nav-left img {
-    padding-right: 10px;
-}
- */
  .box {
     margin-left: 15vw;
     display: flex;
